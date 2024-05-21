@@ -1,0 +1,295 @@
+{
+  "policyholders": [
+    {
+      "code": "001",
+      "name": "保戶1",
+      "registration_date": "newDate",
+      "introducer_code": "",
+      "l": [
+        {
+          "code": "002",
+          "name": "保戶2",
+          "registration_date": "newDate",
+          "introducer_code": "001",
+          "l": [
+            {
+              "code": "004",
+              "name": "保戶4",
+              "registration_date": "newDate",
+              "introducer_code": "001",
+              "l": [
+                {
+                  "code": "008",
+                  "name": "保戶8",
+                  "registration_date": "newDate",
+                  "introducer_code": "001",
+                  "l": null,
+                  "r": null
+                }
+              ],
+              "r": [
+                {
+                  "code": "009",
+                  "name": "保戶9",
+                  "registration_date": "newDate",
+                  "introducer_code": "",
+                  "l": null,
+                  "r": null
+                }
+              ]
+            }
+          ],
+          "r": [
+            {
+              "code": "005",
+              "name": "保戶5",
+              "registration_date": "newDate",
+              "introducer_code": "",
+              "l": null,
+              "r": null
+            }
+          ]
+        }
+      ],
+      "r": [
+        {
+          "code": "003",
+          "name": "保戶3",
+          "registration_date": "newDate",
+          "introducer_code": "001",
+          "l": [
+            {
+              "code": "006",
+              "name": "保戶6",
+              "registration_date": "newDate",
+              "introducer_code": "",
+              "l": null,
+              "r": null
+            }
+          ],
+          "r": [
+            {
+              "code": "007",
+              "name": "保戶7",
+              "registration_date": "newDate",
+              "introducer_code": "",
+              "l": null,
+              "r": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "002",
+      "name": "保戶2",
+      "registration_date": "newDate",
+      "introducer_code": "001",
+      "l": [
+        {
+          "code": "004",
+          "name": "保戶4",
+          "registration_date": "newDate",
+          "introducer_code": "001",
+          "l": [
+            {
+              "code": "008",
+              "name": "保戶8",
+              "registration_date": "newDate",
+              "introducer_code": "001",
+              "l": null,
+              "r": null
+            }
+          ],
+          "r": [
+            {
+              "code": "009",
+              "name": "保戶9",
+              "registration_date": "newDate",
+              "introducer_code": "",
+              "l": null,
+              "r": null
+            }
+          ]
+        }
+      ],
+      "r": [
+        {
+          "code": "005",
+          "name": "保戶5",
+          "registration_date": "newDate",
+          "introducer_code": "",
+          "l": null,
+          "r": null
+        }
+      ]
+    },
+    {
+      "code": "003",
+      "name": "保戶3",
+      "registration_date": "newDate",
+      "introducer_code": "001",
+      "l": [
+        {
+          "code": "006",
+          "name": "保戶6",
+          "registration_date": "newDate",
+          "introducer_code": "",
+          "l": null,
+          "r": null
+        }
+      ],
+      "r": [
+        {
+          "code": "007",
+          "name": "保戶7",
+          "registration_date": "newDate",
+          "introducer_code": "",
+          "l": null,
+          "r": null
+        }
+      ]
+    },
+    {
+      "code": "004",
+      "name": "保戶4",
+      "registration_date": "newDate",
+      "introducer_code": "001",
+      "l": [
+        {
+          "code": "008",
+          "name": "保戶8",
+          "registration_date": "newDate",
+          "introducer_code": "001",
+          "l": null,
+          "r": null
+        }
+      ],
+      "r": [
+        {
+          "code": "009",
+          "name": "保戶9",
+          "registration_date": "newDate",
+          "introducer_code": "",
+          "l": null,
+          "r": null
+        }
+      ]
+    },
+    {
+      "code": "005",
+      "name": "保戶5",
+      "registration_date": "newDate",
+      "introducer_code": "",
+      "l": null,
+      "r": null
+    },
+    {
+      "code": "006",
+      "name": "保戶6",
+      "registration_date": "newDate",
+      "introducer_code": "",
+      "l": null,
+      "r": null
+    },
+    {
+      "code": "007",
+      "name": "保戶7",
+      "registration_date": "newDate",
+      "introducer_code": "",
+      "l": null,
+      "r": null
+    },
+    {
+      "code": "008",
+      "name": "保戶8",
+      "registration_date": "newDate",
+      "introducer_code": "001",
+      "l": null,
+      "r": null
+    },
+    {
+      "code": "009",
+      "name": "保戶9",
+      "registration_date": "newDate",
+      "introducer_code": "",
+      "l": null,
+      "r": null
+    }
+  ],
+  "top": [
+    { "code": "001", "top": null },
+    {
+      "code": "002",
+      "top": {
+        "code": "001",
+        "name": "保戶1",
+        "registration_date": "newDate",
+        "introducer_code": ""
+      }
+    },
+    {
+      "code": "003",
+      "top": {
+        "code": "001",
+        "name": "保戶1",
+        "registration_date": "newDate",
+        "introducer_code": ""
+      }
+    },
+    {
+      "code": "004",
+      "top": {
+        "code": "002",
+        "name": "保戶2",
+        "registration_date": "newDate",
+        "introducer_code": "001"
+      }
+    },
+    {
+      "code": "005",
+      "top": {
+        "code": "002",
+        "name": "保戶2",
+        "registration_date": "newDate",
+        "introducer_code": "001"
+      }
+    },
+    {
+      "code": "006",
+      "top": {
+        "code": "003",
+        "name": "保戶3",
+        "registration_date": "newDate",
+        "introducer_code": "001"
+      }
+    },
+    {
+      "code": "007",
+      "top": {
+        "code": "003",
+        "name": "保戶3",
+        "registration_date": "newDate",
+        "introducer_code": "001"
+      }
+    },
+    {
+      "code": "008",
+      "top": {
+        "code": "004",
+        "name": "保戶4",
+        "registration_date": "newDate",
+        "introducer_code": "001"
+      }
+    },
+    {
+      "code": "009",
+      "top": {
+        "code": "004",
+        "name": "保戶4",
+        "registration_date": "newDate",
+        "introducer_code": "001"
+      }
+    }
+  ]
+}
